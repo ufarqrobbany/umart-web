@@ -1,0 +1,73 @@
+.tim-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  row-gap: 2em;
+  margin-bottom: 6em;
+}
+
+.tim-container .section-detail.section-card-container {
+  column-gap: 3em;
+  justify-content: center;
+}
+
+.tim-card {
+  width: 290px;
+  padding: 3em 2em;
+  /* box-shadow: 0px 0px 20px rgba(0, 35, 71, 0.12); */
+  border: 0.1em solid #efefef;
+  border-radius: 0.8em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  row-gap: 2em;
+}
+
+.tim-image {
+  aspect-ratio: 1/1;
+  width: 120px;
+  background-color: #DDDDDD;
+  border-radius: 100%;
+}
+
+.tim-detail {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+}
+
+.tim-title {
+  color: #353535;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.tim-paragraph {
+  font-size: 0.9em;
+}
+
+.tim-social {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tim-social a {
+  color: #555 !important;
+  font-size: 1.5em;
+  transition: color 0.3s ease;
+}
+
+.tim-social .lk-logo:hover {
+  color: #0077b5 !important; /* Warna LinkedIn */
+}
+
+.tim-social .ig-logo:hover {
+  color: #e4405f !important; /* Warna Instagram */
+}

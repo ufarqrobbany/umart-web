@@ -1,0 +1,53 @@
+.why-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  row-gap: 2em;
+  margin-bottom: 6em;
+}
+
+.pros-card {
+  width: 376px;
+  padding: 3em 2em;
+  /* box-shadow: 0px 0px 20px rgba(0, 35, 71, 0.12); */
+  border: 0.1em solid #efefef;
+  border-radius: 0.8em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  row-gap: 2em;
+}
+
+.pros-image {
+  /* aspect-ratio: 1/1; */
+  width: 120px;
+  /* background-color: #DDDDDD; */
+  /* border-radius: 100%; */
+
+  border-radius: 100%;
+  /* background-color: #DDDDDD; */
+  border: 0.2em solid #FFC01E;
+  background-color: #FFC01E11;
+  /* width: 100px; */
+  aspect-ratio: 1/1;
+}
+
+.pros-detail {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+}
+
+.pros-title {
+  color: #353535;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.pros-paragraph {
+  font-size: 0.9em;
+}

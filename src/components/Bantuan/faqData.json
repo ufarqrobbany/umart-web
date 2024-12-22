@@ -1,0 +1,302 @@
+[
+    {
+        "id": 1,
+        "question": "Apa itu C-Food?",
+        "answer": "C-Food adalah aplikasi layanan pengantaran makanan yang dirancang khusus untuk lingkungan kampus. Aplikasi ini memfasilitasi transaksi jual-beli makanan di kampus dengan melibatkan mahasiswa sebagai pembeli, penjual, dan kurir.",
+        "category": "Tentang C-Food"
+    },
+    {
+        "id": 2,
+        "question": "Apa yang membedakan C-Food dari aplikasi food delivery lain?",
+        "answer": "C-Food fokus pada ekosistem kampus dan dirancang untuk mendukung kewirausahaan mahasiswa. Biaya layanan lebih rendah, dan terdapat fitur khusus seperti akun terverifikasi untuk organisasi mahasiswa.",
+        "category": "Tentang C-Food"
+    },
+    {
+        "id": 3,
+        "question": "Siapa saja yang dapat menggunakan aplikasi C-Food?",
+        "answer": "Aplikasi ini dapat digunakan oleh semua warga kampus yang memiliki email kampus aktif, termasuk mahasiswa, dosen, dan staf.",
+        "category": "Tentang C-Food"
+    },
+    {
+        "id": 4,
+        "question": "Apakah C-Food tersedia untuk umum?",
+        "answer": "Tidak, C-Food hanya ditujukan untuk warga kampus dengan akses menggunakan email resmi kampus.",
+        "category": "Tentang C-Food"
+    },
+    {
+        "id": 5,
+        "question": "Di platform mana C-Food tersedia?",
+        "answer": "Saat ini, aplikasi C-Food tersedia di platform Android dan dapat diunduh melalui Google Play Store.",
+        "category": "Tentang C-Food"
+    },
+    {
+        "id": 6,
+        "question": "Apakah aplikasi ini gratis?",
+        "answer": "Ya, aplikasi ini gratis untuk diunduh dan digunakan oleh warga kampus.",
+        "category": "Pembayaran"
+    },
+    {
+        "id": 7,
+        "question": "Apakah ada biaya layanan di C-Food?",
+        "answer": "Ya, ada biaya layanan sebesar 1% dari total setiap transaksi.",
+        "category": "Pembayaran"
+    },
+    {
+        "id": 8,
+        "question": "Apakah saya perlu mendaftar untuk menggunakan C-Food?",
+        "answer": "Ya, Anda perlu mendaftar menggunakan email kampus aktif untuk dapat menggunakan C-Food.",
+        "category": "Penggunaan Aplikasi"
+    },
+    {
+        "id": 9,
+        "question": "Apa saja fitur utama yang ditawarkan oleh C-Food?",
+        "answer": "Fitur utama C-Food meliputi sistem pencarian dan filter produk, keranjang belanja, proses checkout, fitur chat antar pelaku bisnis, ulasan dan rating produk, serta dukungan wirausaha mahasiswa.",
+        "category": "Tentang C-Food"
+    },
+    {
+        "id": 10,
+        "question": "Bagaimana cara mencari produk di C-Food?",
+        "answer": "Anda dapat menggunakan fitur pencarian di halaman utama dengan memasukkan kata kunci produk atau kategori yang diinginkan.",
+        "category": "Penggunaan Aplikasi"
+    },
+    {
+        "id": 11,
+        "question": "Apakah ada fitur pre-order di C-Food?",
+        "answer": "Ya, C-Food menyediakan fitur pre-order untuk memesan makanan terlebih dahulu sesuai dengan ketersediaan stok.",
+        "category": "Penggunaan Aplikasi"
+    },
+    {
+        "id": 12,
+        "question": "Apakah saya bisa melacak pesanan saya?",
+        "answer": "Ya, Anda bisa melacak pesanan Anda secara real-time melalui aplikasi, termasuk melihat status pengiriman oleh kurir.",
+        "category": "Penggunaan Aplikasi"
+    },
+    {
+        "id": 13,
+        "question": "Bisakah saya memberikan ulasan dan rating pada produk yang saya beli?",
+        "answer": "Ya, setelah menerima pesanan, Anda dapat memberikan ulasan dan rating terhadap produk dan layanan yang Anda terima.",
+        "category": "Penggunaan Aplikasi"
+    },
+    {
+        "id": 14,
+        "question": "Apakah C-Food mendukung pembayaran e-wallet?",
+        "answer": "Ya, C-Food mendukung berbagai metode pembayaran e-wallet populer seperti QRIS, Dana, OVO, dan GoPay.",
+        "category": "Pembayaran"
+    },
+    {
+        "id": 15,
+        "question": "Bagaimana cara menjadi penjual di C-Food?",
+        "answer": "Anda bisa mendaftar sebagai penjual melalui aplikasi dengan memilih opsi 'Gabung menjadi wirausaha' di menu akun.",
+        "category": "Penggunaan Aplikasi"
+    },
+    {
+        "id": 16,
+        "question": "Apakah ada biaya untuk menjadi penjual di C-Food?",
+        "answer": "Tidak ada biaya untuk mendaftar sebagai penjual di C-Food.",
+        "category": "Penggunaan Aplikasi"
+    },
+    {
+        "id": 17,
+        "question": "Apakah saya bisa menjadi kurir di C-Food?",
+        "answer": "Ya, mahasiswa dapat mendaftar sebagai kurir melalui aplikasi C-Food.",
+        "category": "Kurir dan Pengiriman"
+    },
+    {
+        "id": 18,
+        "question": "Bagaimana cara kurir menerima pesanan?",
+        "answer": "Kurir dapat melihat daftar pesanan yang tersedia dan menerima pesanan untuk diantar melalui aplikasi.",
+        "category": "Kurir dan Pengiriman"
+    },
+    {
+        "id": 19,
+        "question": "Apakah kurir harus selalu mahasiswa?",
+        "answer": "Ya, kurir di C-Food diutamakan dari kalangan mahasiswa untuk mendukung ekosistem ekonomi kampus.",
+        "category": "Kurir dan Pengiriman"
+    },
+    {
+        "id": 20,
+        "question": "Apakah data saya aman di C-Food?",
+        "answer": "Ya, data pengguna dilindungi dan tidak akan dibagikan tanpa izin Anda.",
+        "category": "Keamanan dan Kebijakan"
+    },
+    {
+        "id": 21,
+        "question": "Bagaimana kebijakan pembatalan pesanan di C-Food?",
+        "answer": "Kebijakan pembatalan pesanan mengikuti ketentuan yang berlaku di aplikasi, yang bisa berbeda tergantung dari masing-masing penjual.",
+        "category": "Keamanan dan Kebijakan"
+    },
+    {
+        "id": 22,
+        "question": "Apa yang harus dilakukan jika saya mengalami masalah teknis?",
+        "answer": "Anda dapat menghubungi tim dukungan teknis melalui fitur chat di aplikasi atau mengirim email ke master.cfood@gmail.com.",
+        "category": "Dukungan Teknis"
+    },
+    {
+        "id": 23,
+        "question": "Bagaimana jika ada masalah dengan pesanan saya?",
+        "answer": "Anda dapat menghubungi penjual atau kurir melalui fitur chat di aplikasi untuk menyelesaikan masalah yang terjadi.",
+        "category": "Keamanan dan Kebijakan"
+    },
+    {
+        "id": 24,
+        "question": "Bagaimana cara menghapus akun saya di C-Food?",
+        "answer": "Anda bisa menghubungi layanan pelanggan C-Food untuk meminta penghapusan akun.",
+        "category": "Keamanan dan Kebijakan"
+    },
+    {
+        "id": 25,
+        "question": "Apakah C-Food berhak mengubah ketentuan penggunaan?",
+        "answer": "Ya, C-Food berhak mengubah ketentuan penggunaan dengan pemberitahuan kepada pengguna.",
+        "category": "Keamanan dan Kebijakan"
+    },
+    {
+        "id": 26,
+        "question": "Apa saja keunggulan C-Food dibandingkan dengan aplikasi lain?",
+        "answer": "C-Food menawarkan biaya layanan yang lebih rendah, fitur khusus untuk organisasi mahasiswa, dan fokus pada pengembangan kewirausahaan di lingkungan kampus.",
+        "category": "Tentang C-Food"
+    },
+    {
+        "id": 27,
+        "question": "Bagaimana C-Food mendukung program Merdeka Belajar-Kampus Merdeka (MBKM)?",
+        "answer": "C-Food menyediakan platform bagi mahasiswa untuk belajar dan mengembangkan diri menjadi calon entrepreneur melalui fitur-fitur pendukung bisnis.",
+        "category": "Tentang C-Food"
+    },
+    {
+        "id": 28,
+        "question": "Apakah C-Food bisa digunakan di kampus lain?",
+        "answer": "Ya, C-Food berpotensi untuk diimplementasikan di kampus lain sesuai dengan kondisi dan kebijakan masing-masing institusi.",
+        "category": "Tentang C-Food"
+    },
+    {
+        "id": 29,
+        "question": "Apakah ada rencana pengembangan lebih lanjut untuk aplikasi ini?",
+        "answer": "Ya, tim pengembang berkomitmen untuk terus memperbaiki dan menambah fitur guna meningkatkan pengalaman pengguna.",
+        "category": "Tentang C-Food"
+    },
+    {
+        "id": 30,
+        "question": "Apakah C-Food menyediakan dukungan kepada organisasi mahasiswa?",
+        "answer": "Ya, C-Food menyediakan fitur khusus untuk mendukung penggalangan dana usaha organisasi mahasiswa.",
+        "category": "Tentang C-Food"
+    },
+    {
+        "id": 31,
+        "question": "Bagaimana cara registrasi di C-Food?",
+        "answer": "Anda perlu mendaftar dengan email kampus aktif dan mengikuti langkah-langkah pendaftaran di aplikasi.",
+        "category": "Penggunaan Aplikasi"
+    },
+    {
+        "id": 32,
+        "question": "Bagaimana cara login ke aplikasi C-Food?",
+        "answer": "Setelah registrasi, Anda bisa login menggunakan email dan password yang sudah terdaftar.",
+        "category": "Penggunaan Aplikasi"
+    },
+    {
+        "id": 33,
+        "question": "Apa yang harus saya lakukan jika lupa password?",
+        "answer": "Anda bisa memilih opsi 'Lupa Password' di halaman login dan mengikuti instruksi untuk mereset password.",
+        "category": "Penggunaan Aplikasi"
+    },
+    {
+        "id": 34,
+        "question": "Bagaimana cara menambahkan produk ke keranjang?",
+        "answer": "Anda dapat menambahkan produk ke keranjang dengan memilih produk yang diinginkan dan klik 'Tambah ke Keranjang.'",
+        "category": "Penggunaan Aplikasi"
+    },
+    {
+        "id": 35,
+        "question": "Apakah saya bisa mengubah alamat pengantaran setelah memesan?",
+        "answer": "Ya, Anda bisa mengubah alamat pengantaran melalui fitur pengaturan pesanan sebelum pesanan diproses oleh kurir.",
+        "category": "Kurir dan Pengiriman"
+    },
+    {
+        "id": 36,
+        "question": "Bagaimana cara menghubungi penjual atau kurir?",
+        "answer": "Anda dapat menggunakan fitur chat di aplikasi untuk berkomunikasi langsung dengan penjual atau kurir.",
+        "category": "Kurir dan Pengiriman"
+    },
+    {
+        "id": 37,
+        "question": "Apakah ada fitur promo atau diskon di C-Food?",
+        "answer": "Ya, C-Food seringkali menawarkan promo atau diskon khusus yang dapat dilihat di halaman utama aplikasi.",
+        "category": "Pembayaran"
+    },
+    {
+        "id": 38,
+        "question": "Bagaimana saya tahu kapan produk tersedia?",
+        "answer": "Anda bisa menggunakan fitur notifikasi produk di aplikasi untuk mendapatkan pemberitahuan saat produk tersedia kembali.",
+        "category": "Lainnya"
+    },
+    {
+        "id": 39,
+        "question": "Apakah pesanan bisa dibatalkan setelah diterima oleh kurir?",
+        "answer": "Tidak, pesanan yang sudah diterima oleh kurir tidak dapat dibatalkan.",
+        "category": "Kurir dan Pengiriman"
+    },
+    {
+        "id": 40,
+        "question": "Bagaimana jika pesanan tidak sampai?",
+        "answer": "Jika pesanan tidak sampai, Anda bisa menghubungi kurir atau layanan pelanggan C-Food untuk menyelesaikan masalah tersebut.",
+        "category": "Kurir dan Pengiriman"
+    },
+    {
+        "id": 41,
+        "question": "Bagaimana cara melihat riwayat pesanan saya?",
+        "answer": "Anda bisa melihat riwayat pesanan Anda melalui menu 'Riwayat Pesanan' di akun Anda.",
+        "category": "Penggunaan Aplikasi"
+    },
+    {
+        "id": 42,
+        "question": "Apakah saya bisa menyimpan produk favorit?",
+        "answer": "Ya, Anda bisa menambahkan produk ke daftar 'Favorit' untuk akses lebih cepat di masa mendatang.",
+        "category": "Penggunaan Aplikasi"
+    },
+    {
+        "id": 43,
+        "question": "Bagaimana cara mengubah informasi akun saya?",
+        "answer": "Anda bisa mengubah informasi akun Anda melalui pengaturan akun di aplikasi.",
+        "category": "Penggunaan Aplikasi"
+    },
+    {
+        "id": 44,
+        "question": "Apakah saya bisa memesan makanan untuk orang lain?",
+        "answer": "Ya, Anda bisa memasukkan alamat pengiriman yang berbeda saat checkout untuk memesan makanan untuk orang lain.",
+        "category": "Penggunaan Aplikasi"
+    },
+    {
+        "id": 45,
+        "question": "Bagaimana cara memberikan ulasan setelah membeli?",
+        "answer": "Setelah pesanan selesai, Anda akan mendapatkan opsi untuk memberikan ulasan di halaman riwayat pesanan.",
+        "category": "Penggunaan Aplikasi"
+    },
+    {
+        "id": 46,
+        "question": "Apakah C-Food menyediakan makanan halal?",
+        "answer": "C-Food bekerja sama dengan berbagai penjual yang menyediakan makanan halal. Anda bisa menggunakan filter untuk mencari makanan halal di aplikasi.",
+        "category": "Lainnya"
+    },
+    {
+        "id": 47,
+        "question": "Apakah ada fitur pengembalian uang di C-Food?",
+        "answer": "Pengembalian uang hanya berlaku dalam kondisi tertentu dan akan diproses sesuai dengan kebijakan yang berlaku.",
+        "category": "Keamanan dan Kebijakan"
+    },
+    {
+        "id": 48,
+        "question": "Bagaimana saya bisa mengaktifkan notifikasi untuk promo terbaru?",
+        "answer": "Anda bisa mengaktifkan notifikasi melalui pengaturan aplikasi untuk mendapatkan informasi terbaru tentang promo.",
+        "category": "Lainnya"
+    },
+    {
+        "id": 49,
+        "question": "Bagaimana cara menyampaikan saran atau masukan?",
+        "answer": "Anda bisa mengirimkan saran atau masukan melalui fitur 'Hubungi Kami' di aplikasi.",
+        "category": "Dukungan Teknis"
+    },
+    {
+        "id": 50,
+        "question": "Apa saja kategori makanan yang tersedia di C-Food?",
+        "answer": "C-Food menyediakan berbagai kategori makanan, termasuk makanan berat, camilan, minuman, dan makanan ringan.",
+        "category": "Lainnya"
+    }
+]

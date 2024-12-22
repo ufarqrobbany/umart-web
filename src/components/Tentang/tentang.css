@@ -1,0 +1,86 @@
+
+.tentang-container {
+  position: relative;
+  top: 78.8px;
+  /* height: 1000px; */
+  width: 70%;
+  padding: 4em 4em 10em 4em;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.tim-parag {
+  align-self: center;
+}
+
+.tentang-container a {
+    color: #FFC01E;
+}
+
+.tentang-image {
+  border-radius: 2em;
+  margin: 2em 0;
+}
+
+.galeries {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.slide {
+  /* margin: 0 1em !important; */
+  /* margin: 0 1% !important; */
+  /* margin-right: 1% !important; */
+  
+  
+  /* width: 100px !important; */
+  opacity: 0.4;
+}
+
+.carousel .slide {
+  padding: 0 10px;  /* Add padding on left and right to create a gap between slides */
+}
+
+.carousel .slider-wrapper {
+  overflow: visible;  /* Allow gaps between slides to show */
+}
+
+.carousel .slider {
+  /* gap: 10px;  Adds gap between the slides */
+}
+
+.carousel .slide img {
+  border: 0.2em solid #ddd !important;
+  border-radius: 0.8em !important;
+  transition: transform 0.2s;
+}
+
+.carousel .slide img:hover {
+  transform: scale(1.05); /* Slight hover effect */
+}
+
+
+/* Responsive settings */
+
+
+.slide.selected {
+  opacity: 1;
+}
+
+.galeries img {
+  border-radius: 0.8em;
+  width: 100%;
+  border: 0.2em solid #ddd;
+  transition: 0.2s;
+}
+
+.galeries img:hover {
+  transform: scale(1.1);
+  border-color: black;
+}

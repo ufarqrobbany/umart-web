@@ -1,0 +1,20 @@
+.about-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  row-gap: 3em;
+  margin-bottom: 10em;
+}
+
+.video-cfood {
+  width: 740px;
+  height: 400px;
+  border-radius: 1em;
+}
+
+.about-container .section-detail {
+  font-size: 1em;
+}

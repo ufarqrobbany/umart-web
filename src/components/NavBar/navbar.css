@@ -1,0 +1,173 @@
+.navbar-container {
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6em 3em;
+  /* background-color: #002347; */
+}
+
+/* File: font.css */
+@font-face {
+  font-family: 'GravityLevel';
+  src: url('../../fonts/gravity_level/GravityLevelDemoRegular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CalendasPlus';
+  src: url('../../fonts/Calendas-Plus/Calendas_Plus.otf') format('opentype');
+}
+
+
+.logo {
+  color: #455DB2;
+  /* font-family: 'CalendasPlus'; */
+  font-size: 1.1em;
+  position: relative;
+  cursor: pointer;
+  transition: 0.2s;
+  z-index: 2;
+  width: 50px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
+.navbar-list {
+  font-size: 0.9em;
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  list-style-type: none;
+  transition: transform 0.5s ease;
+}
+
+.navbar-item a {
+  color: #FFFFFF;
+  font-weight: 400;
+  display: inline-block;
+  transition: 0.2s;
+  cursor: pointer;
+  padding: 0 0.5em;
+  text-decoration: none;
+  position: relative;
+}
+
+.navbar-item a:hover {
+  color: #FFFFFF;
+}
+
+.navbar-item a.active {
+  font-weight: 500;
+  color: #FFC01E;
+}
+
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 0.4em 0.6em;
+  border-radius: 0.2em;
+  border: 0.1em solid #FFC01E;
+  /* background-color: #ffffff88; */
+}
+
+.menu-line {
+  width: 25px;
+  height: 3px;
+  background-color: #FFC01E;
+  margin: 3px auto; 
+  transition: all 0.3s ease-in-out;
+}
+
+.open .menu-line:nth-child(1) {
+  transform: translateY(0.56em) rotate(45deg);
+}
+
+.open .menu-line:nth-child(2) {
+  opacity: 0;
+}
+
+.open .menu-line:nth-child(3) {
+  transform: translateY(-0.56em) rotate(-45deg);
+}
+
+.cv {
+  font-size: 0.75em;
+  padding: 0.8em 2.4em;
+  border-radius: 50em;
+  border: 0.16em solid #FFC01E;
+  cursor: pointer;
+  transition: 0.3s;
+  color: white;
+  font-weight: 500;
+  z-index: 3;
+}
+
+.cv:hover {
+  background-color: #FFC01E;
+  color: #353535;
+  
+}
+
+.btn-secondary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.6em;
+}
+
+.btn-secondary svg {
+  font-size: 1.2em;
+}
+
+
+.navbar-item a::after {
+  content: ''; /* Menambahkan elemen pseudo untuk border */
+  position: absolute; /* Menentukan posisi border */
+  bottom: -0.4em; /* Menempatkan border di bagian bawah */
+  left: 50%; /* Menempatkan border mulai dari tengah */
+  width: 0; /* Mulai dengan lebar 0 */
+  height: 2px; /* Tinggi border */
+  background-color: #FFC01E; /* Warna border */
+  transition: width 0.3s ease, left 0.3s ease; /* Animasi lebar dan posisi border */
+}
+
+.navbar-item a:hover::after,
+.navbar-item a:focus::after { /* Sama untuk saat tidak hover */
+  width: 100%; /* Lebar border menjadi 100% saat dihover */
+  left: 0; /* Kembali ke posisi awal */
+  
+}
+
+@keyframes borderGrow {
+  0% {
+    width: 0; /* Mulai dengan lebar 0 */
+    left: 50%; /* Mulai dari tengah */
+  }
+  100% {
+    width: 100%; /* Berakhir dengan lebar 100% */
+    left: 0; /* Kembali ke posisi awal */
+  }
+}
+
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

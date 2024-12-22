@@ -1,0 +1,12 @@
+.privacy-container {
+  position: relative;
+  top: 78.8px;
+  /* height: 1000px; */
+  width: 70%;
+  padding: 4em 4em 10em 4em;
+  margin: 0 auto;
+}
+
+.privacy-container a {
+    color: #FFC01E;
+}

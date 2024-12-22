@@ -1,0 +1,212 @@
+.navbar-container {
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6em 3em;
+}
+
+/* File: font.css */
+@font-face {
+  font-family: 'GravityLevel';
+  src: url('../../fonts/gravity_level/GravityLevelDemoRegular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CalendasPlus';
+  src: url('../../fonts/Calendas-Plus/Calendas_Plus.otf') format('opentype');
+}
+
+
+.logo {
+  color: #455DB2;
+  /* font-family: 'CalendasPlus'; */
+  font-weight: 700;
+  font-size: 1.1em;
+  position: relative;
+  cursor: pointer;
+}
+
+.logo::after {
+  /* font-family: 'CalendasPlus'; */
+  content: 'F A R U Q';
+  color: #455DB2;
+  position: absolute;
+  top: 0;
+  transition: .3s ease-in-out;
+}
+
+.logo::before {
+    content: '';
+    position: absolute;
+    width: 160%;
+    height: 140%;
+    background-color: #455DB2;
+    bottom: -20%;
+    left: -30%;
+    border-radius: 0.2em;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+
+.logo:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.logo:hover::after {
+  color: white;
+}
+
+.navbar-list {
+  font-size: 0.9em;
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  list-style-type: none;
+  transition: transform 0.5s ease;
+}
+
+.navbar-item a {
+  color: #E4E5EB;
+  font-weight: 400;
+  display: inline-block;
+  transition: 0.2s;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+}
+
+.navbar-item a:hover {
+  color: #455DB2;
+}
+
+.navbar-item a.active {
+  font-weight: 600;
+  color: #455DB2;
+}
+
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 0.4em 0.6em;
+  border-radius: 0.2em;
+  border: 0.1em solid #455DB2;
+  /* background-color: #ffffff88; */
+}
+
+.menu-line {
+  width: 25px;
+  height: 3px;
+  background-color: #455DB2;
+  margin: 3px auto; 
+  transition: all 0.3s ease-in-out;
+}
+
+.open .menu-line:nth-child(1) {
+  transform: translateY(0.56em) rotate(45deg);
+}
+
+.open .menu-line:nth-child(2) {
+  opacity: 0;
+}
+
+.open .menu-line:nth-child(3) {
+  transform: translateY(-0.56em) rotate(-45deg);
+}
+
+.cv {
+  font-size: 0.75em;
+  padding: 0.8em 2.4em;
+  border-radius: 50em;
+  border: 0.16em solid #455DB2;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cv:hover {
+  background-color: #455DB2;
+}
+
+@media (min-width: 900px) {
+  .navbar-item a::after {
+    content: ''; /* Menambahkan elemen pseudo untuk border */
+    position: absolute; /* Menentukan posisi border */
+    bottom: -0.4em; /* Menempatkan border di bagian bawah */
+    left: 50%; /* Menempatkan border mulai dari tengah */
+    width: 0; /* Mulai dengan lebar 0 */
+    height: 2px; /* Tinggi border */
+    background-color: #455DB2; /* Warna border */
+    transition: width 0.3s ease, left 0.3s ease; /* Animasi lebar dan posisi border */
+  }
+  
+  .navbar-item a:hover::after,
+  .navbar-item a:focus::after { /* Sama untuk saat tidak hover */
+    width: 100%; /* Lebar border menjadi 100% saat dihover */
+    left: 0; /* Kembali ke posisi awal */
+    
+  }
+  
+  @keyframes borderGrow {
+    0% {
+      width: 0; /* Mulai dengan lebar 0 */
+      left: 50%; /* Mulai dari tengah */
+    }
+    100% {
+      width: 100%; /* Berakhir dengan lebar 100% */
+      left: 0; /* Kembali ke posisi awal */
+    }
+  }
+}
+
+@media (max-width: 899px) {
+  .navbar-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1.4em;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+    z-index: 9;
+    font-size: 0.9em;
+    flex-direction: column;
+    gap: 1.4em;
+    background-color: #16191D;
+    border-bottom: 1px solid #455DB2;
+  }
+
+  .navbar-list.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: slideDown 0.5s ease forwards;
+  }
+
+  .menu-icon {
+    display: flex;
+  }
+
+  .navbar-item {
+    text-align: center;
+  }
+
+  .cv {
+    display: none;
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
